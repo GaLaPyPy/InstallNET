@@ -361,7 +361,8 @@ gdlink 'https://drive.google.com/open?id=0B8SvBXZ3I5QMcUduTMJEanRkMzQ' |xargs -n
 
 转载于萌咖https://moeclub.org/2018/04/03/603/
 
-
+防止moeclub.org失效，替换为github链接
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/GaLaPyPy/InstallNET/refs/heads/main/InstallNET.sh') -d 11 -v 64 -a
 
 **# 甲骨文VNC连接**
 
